@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-simple-kpr-97
+name: x86-simple-adg
 
 on:
   repository_dispatch:
@@ -26,10 +26,10 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: x86-simple-kpr-97.config
+  CONFIG_FILE: x86-simple-adg.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: false
   UPLOAD_COWTRANSFER: false
